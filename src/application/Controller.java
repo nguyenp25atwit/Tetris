@@ -14,10 +14,10 @@ public class Controller {
 	public static void MoveRight(Form form) {
 		if (form.a.getX() + MOVE <= XMAX - SIZE && form.b.getX() + MOVE <= XMAX - SIZE
 				&& form.c.getX() + MOVE <= XMAX - SIZE && form.d.getX() + MOVE <= XMAX - SIZE) {
-			int movea = MESH[((int) form.a.getX() / SIZE) + 2][((int) form.a.getY() / SIZE)];
-			int moveb = MESH[((int) form.b.getX() / SIZE) + 2][((int) form.b.getY() / SIZE)];
-			int movec = MESH[((int) form.c.getX() / SIZE) + 2][((int) form.c.getY() / SIZE)];
-			int moved = MESH[((int) form.d.getX() / SIZE) + 2][((int) form.d.getY() / SIZE)];
+			int movea = MESH[((int) form.a.getX() / SIZE) ][((int) form.a.getY() / SIZE)];
+			int moveb = MESH[((int) form.b.getX() / SIZE) ][((int) form.b.getY() / SIZE)];
+			int movec = MESH[((int) form.c.getX() / SIZE) ][((int) form.c.getY() / SIZE)];
+			int moved = MESH[((int) form.d.getX() / SIZE) ][((int) form.d.getY() / SIZE)];
 			if (movea == 0 && movea == moveb && moveb == movec && movec == moved) {
 				form.a.setX(form.a.getX() + MOVE);
 				form.b.setX(form.b.getX() + MOVE);
