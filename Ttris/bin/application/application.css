@@ -5,5 +5,4 @@
     -fx-background-size: 150 100 ;
     -fx-background-position: right bottom;
     -fx-background-repeat: no-repeat;
-    -fx-effect: dropshadow(three-pass-box, black, 25, 0.5, 0, 0); 
 }
