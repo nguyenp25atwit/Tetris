@@ -6,7 +6,7 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*; 
 import javafx.geometry.*;
-import java.awt.FlowLayout;
+import java.awt.Graphics;
 public class Menu extends Main{
 
 	Label response;
