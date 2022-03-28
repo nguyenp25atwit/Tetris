@@ -6,7 +6,7 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*; 
 import javafx.geometry.*;
-
+import java.awt.FlowLayout;
 public class Menu extends Main{
 
 	Label response;
@@ -25,6 +25,15 @@ public class Menu extends Main{
 		Scene myScene = new Scene(rootNode, 300, 300);
 		
 		 myStage.setScene(myScene);
+		 
+		 response = new Label("TTris");
+		 
+		 MenuBar mb = new MenuBar();
+		 
+		 Menu startMenu = new Menu();
+		 
+		 
+		 
 	}
 
 }
